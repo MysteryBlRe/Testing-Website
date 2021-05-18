@@ -1,0 +1,52 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.box {
+    position: relative;
+    left: 25%;
+    background-color: seagreen;
+    height: 50%;
+    width: 50%;
+    color:white;
+}
+
+h1{
+    position: relative;
+    left: 47%;
+}
+
+button{
+    position: relative;
+    left: 20%;
+    top: 15%;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: red;
+    color: royalblue;
+    font-size: 30px;
+}
+
+p{
+    position: relative;
+    left:20%;
+    top:10%;
+    line-height: 50px;
+}
+
+.picture{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 45%;
+    top: 25%;
+    background-image: url('resources/cute-cat-videos-lede.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
